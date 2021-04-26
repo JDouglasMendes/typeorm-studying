@@ -1,0 +1,19 @@
+{
+  "compileOnSave": true,
+    "compilerOptions": {
+      "target": "es2017",
+      "module": "commonjs",
+      "noImplicitAny": true,      
+      "removeComments": true,
+      "preserveConstEnums": true,
+      // "outFile": "../../built/local/tsc.js",    
+      "experimentalDecorators" : true,
+      "emitDecoratorMetadata" : true,
+      "moduleResolution":"node",
+      "outDir": "./dist/.",
+      "allowJs": true
+    },
+    "lib": ["es2019"],
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}
